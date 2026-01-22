@@ -1,0 +1,29 @@
+
+> velocity-token@1.0.0 deploy:local
+> hardhat run scripts/deploy.js
+
+Deploying VelocityToken with account: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+Account balance: 10000.0 ETH
+VelocityToken deployed to: 0x5FbDB2315678afecb367f032d93F642f64180aa3
+
+═══════════════════════════════════════════════════════════════════════
+                    DEPLOYMENT SUCCESSFUL
+═══════════════════════════════════════════════════════════════════════
+
+Deployment Summary:
+- Token Name: Velocity Token
+- Token Symbol: VELO
+- Initial Supply: 10,000,000 VELO
+- Owner: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+- Treasury Wallet: 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266
+- Contract Address: 0x5FbDB2315678afecb367f032d93F642f64180aa3
+
+═══════════════════════════════════════════════════════════════════════
+
+💾 Deployment info saved to: deployment.json
+
+✅ Deployment completed successfully!
+
+⚠️  IMPORTANT: Save the contract address for future reference!
+
+═══════════════════════════════════════════════════════════════════════
