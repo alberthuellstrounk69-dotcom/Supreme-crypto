@@ -1,0 +1,31 @@
+{
+  "name": "velocity-token",
+  "version": "1.0.0",
+  "description": "VelocityToken - Custom ERC20 token with fee mechanics - EXCLUSIVELY LICENSED TO ALBERT PETER HUELLSTROUNK",
+  "main": "hardhat.config.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy": "hardhat run scripts/deploy.js",
+    "deploy:sepolia": "hardhat run scripts/deploy.js --network sepolia",
+    "deploy:mainnet": "hardhat run scripts/deploy.js --network mainnet"
+  },
+  "keywords": [
+    "ethereum",
+    "smart-contract",
+    "erc20",
+    "token",
+    "defi"
+  ],
+  "author": "Albert Peter Huellstrounk",
+  "license": "PROPRIETARY",
+  "private": true,
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.19.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.0",
+    "dotenv": "^16.3.1"
+  }
+}
